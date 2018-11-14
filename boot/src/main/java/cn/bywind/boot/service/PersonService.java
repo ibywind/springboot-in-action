@@ -9,6 +9,6 @@ public interface PersonService {
 
      List<PersonDo> queryPersonlist(HashMap<String,Object> params);
      PersonDo getPerson(HashMap<String,Object> params);
-     PersonDo addPerson(PersonDo personDo);
-     PersonDo updatePerson(HashMap<String,Object> params);
+     int addPerson(PersonDo personDo);
+     int updatePerson(HashMap<String,Object> params);
 }
