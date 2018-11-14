@@ -29,4 +29,12 @@ public class BootApplicationTests {
 		System.out.println(person);
 	}
 
+
+	@Test
+	public void  testUpdatePerson(){
+		HashMap<String,Object> params = new HashMap<String, Object>();
+		params.put("id",1);
+		params.put("name","御风大世界");
+		personService.updatePerson(params);
+	}
 }
