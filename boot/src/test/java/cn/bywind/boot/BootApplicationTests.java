@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.HashMap;
@@ -16,6 +17,9 @@ public class BootApplicationTests {
 
 	@Autowired
 	PersonService personService;
+
+	@Autowired
+	RedisTemplate redisTemplate;
 
 	@Test
 	public void contextLoads() {
@@ -36,5 +40,16 @@ public class BootApplicationTests {
 		params.put("id",1);
 		params.put("name","御风大世界");
 		personService.updatePerson(params);
+	}
+
+	@Test
+	public void testRedisAdd(){
+		redisTemplate.opsForValue().set("name","bywind");
+	}
+
+	@Test
+	public void testGetRedisResult(){
+		Object name = redisTemplate.opsForValue().get("name");
+		System.out.println("得到redis的值:"+name);
 	}
 }
