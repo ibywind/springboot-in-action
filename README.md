@@ -1,20 +1,10 @@
-# springboot-learn
+## springboot-learn
 配合我的springboot系列视频教程,演示代码
 
 我的视频大家可以在B站找到
 
 https://www.bilibili.com/video/av35595465/
 
-希望大家多提宝贵意见
-
-每次视频更新,都会在微信公众号中有同步图文描述
-
-下面是我的微信公众号 二维码
-
-请扫码关注哦
-
-![](https://github.com/ibywind/springboot-learn/blob/master/mp.jpg?raw=true)
-        
 
 ## 课程列表
 
@@ -30,5 +20,18 @@ https://www.bilibili.com/video/av35595465/
 - [springboot教程-10-集成消息中间件](https://mp.weixin.qq.com/s/A0U-IkEnYWUi4WAXPKXZHA)
 - [springboot教程-11-WebFlux框架体验](https://mp.weixin.qq.com/s/Ipki2u9iHJrfySkzv4AHDw)
 - springboot教程-12-部署tomcat和日志管理
+
+希望大家多提宝贵意见
+
+每次视频更新,都会在微信公众号中有同步图文描述
+
+下面是我的微信公众号 二维码
+
+请扫码关注哦
+
+![](https://github.com/ibywind/springboot-learn/blob/master/mp.jpg?raw=true)
+        
+
+
 
 
