@@ -13,6 +13,12 @@ public class MqProducerApplicationTests {
 	@Autowired
 	DirectProducer directProducer;
 
+	@Autowired
+	FanoutSender fanoutSender;
+
+	@Autowired
+	TopicSender topicSender;
+
 
 
 	@Test
@@ -35,6 +41,36 @@ public class MqProducerApplicationTests {
 			directProducer.produceMsg_02();
 		}
 
+	}
+
+	@Test
+	public void testProduceObj() throws InterruptedException {
+		for (int i = 0; i < 100; i++) {
+			Thread.sleep(1*1000);
+			directProducer.produceObj();
+
+		}
+	}
+
+
+	@Test
+	public void testFanout() throws InterruptedException {
+		for (int i = 0; i < 100; i++) {
+			Thread.sleep(1*1000);
+			fanoutSender.send();
+
+		}
+	}
+
+	@Test
+	public void testTopic() throws InterruptedException {
+		for (int i = 0; i < 100; i++) {
+			Thread.sleep(1*1000);
+			topicSender.send();
+			topicSender.send1();
+			topicSender.send2();
+
+		}
 	}
 
 }

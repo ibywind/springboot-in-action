@@ -19,4 +19,9 @@ public class DirectProducer {
         amqpTemplate.convertAndSend(DirectQueue.TEST_02,"hello from test_02");
 
     }
+
+    public void produceObj(){
+        amqpTemplate.convertAndSend(DirectQueue.OBJ_QUEUE,new User("御风",28));
+    }
 }
+
