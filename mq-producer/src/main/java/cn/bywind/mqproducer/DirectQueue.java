@@ -9,6 +9,7 @@ public class DirectQueue {
 
     public static final String TEST_01 = "test_01";
     public static final String TEST_02 = "test_02";
+    public static final String OBJ_QUEUE = "obj_queue";
 
 
     @Bean
@@ -20,4 +21,10 @@ public class DirectQueue {
     public Queue test02(){
         return new Queue(TEST_02);
     }
+
+    @Bean
+    public Queue objQueue(){
+        return new Queue(OBJ_QUEUE);
+    }
 }
+
