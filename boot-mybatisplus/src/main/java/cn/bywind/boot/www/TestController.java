@@ -11,6 +11,7 @@ public class TestController {
     @RequestMapping("/pass")
     @ResponseBody
     public String pass(){
+        System.out.println(" this is in pass:");
         return "pass";
     }
 
