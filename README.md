@@ -1,37 +1,24 @@
-## springboot-learn
-配合我的springboot系列视频教程,演示代码
+# springboot-in-action
 
+配合我的springboot系列视频教程。
 我的视频大家可以在B站找到
-
 https://www.bilibili.com/video/av35595465/
 
+# 如何使用
 
-## 课程列表
+每一集视频，对应一个代码分支。
+比如你现在收看的视频是： 01-springboot的hello world
+那么你只需要 切换到 对应的分支就可以了。
+```
+git checkout branch_01 
 
-- [springboot教程-01-介绍和HelloWorld](https://mp.weixin.qq.com/s/R8b1P3NUAuOFosuxT-ow9A)
-- [springboot教程-02-集成Web功能](https://mp.weixin.qq.com/s/5mvLgPnD4q8kycmE2Zf9-w)
-- [springboot教程-03-devtools热部署](https://mp.weixin.qq.com/s/O1poxHEtMgCmoRGY65F_Bg)
-- [springboot教程-04-html和freemarker](https://mp.weixin.qq.com/s/d8l77fWBDfFAsSE00oS_Wg)
-- [springboot教程-05-整合mybatis](https://mp.weixin.qq.com/s/4-Q1PysfcfnDtZistymu4A)
-- [springboot教程-06-开启事务管理](https://mp.weixin.qq.com/s/Q1IXIdDyXUjMF3mr5le0BQ)
-- [springboot教程-07-集成redis缓存框架](https://mp.weixin.qq.com/s/_UBCdknC9G2RoEZbtfSXHg)
-- [springboot教程-08-定时任务Quartz](https://mp.weixin.qq.com/s/J4IC39Ph6la7gsa2ndm8MA)
-- [springboot教程-09-多环境配置管理](https://mp.weixin.qq.com/s/FEC-zG_zxVrYwTBdyFOJWg)
-- [springboot教程-10-集成消息中间件](https://mp.weixin.qq.com/s/A0U-IkEnYWUi4WAXPKXZHA)
-- [springboot教程-11-WebFlux框架体验](https://mp.weixin.qq.com/s/Ipki2u9iHJrfySkzv4AHDw)
-- springboot教程-12-部署tomcat和日志管理
+```
+这样一来 大家 对于某一集的 内容 如果有什么不明白的，都可以 找到对应的代码 ，从而进行调试和交流
+避免 不必要的 时间开销。
 
-希望大家多提宝贵意见
-
-每次视频更新,都会在微信公众号中有同步图文描述
-
-下面是我的微信公众号 二维码
-
-请扫码关注哦
-
+# 微信公众号
+我精心维护的 微信公众号 `御风大世界` ，请大家 关注 支持哦。
+关注公众号，你可以和 2000+ 行业朋友进行技术分享、加群互动、提问交流。
+而且 公众号 会不定期 发放一些 技术干货，PDF电子书 等 福利哦。
+扫码关注 不迷路。感谢您的支持！
 ![](https://github.com/ibywind/springboot-learn/blob/master/mp.jpg?raw=true)
-        
-
-
-
-
