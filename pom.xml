@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.bywind.springboot</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>springboot-in-action</artifactId>
     <version>1.9</version>
-    <name>demo</name>
+    <name>springboot-in-action</name>
     <description>springboot in action</description>
 
     <properties>
