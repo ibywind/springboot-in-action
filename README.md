@@ -119,4 +119,5 @@
 
 有很多 PDF 书籍 ，干货文章 ，等着大家。
 
-![公众号图片](mp.jpg)
+![公众号图片](https://github.com/ibywind/springboot-in-action/blob/master/mp.jpg)
+
