@@ -113,4 +113,4 @@
 
 有很多 PDF 书籍 ，干货文章 ，等着大家。
 
-![公众号图片](http://blogimg.bywind.cn/file/2018/11/0b0b84a5e2ef494782e9ef96b33e39e3_mp.jpg)
+![公众号图片](https://github.com/ibywind/springboot-in-action/blob/master/mp.jpg)
